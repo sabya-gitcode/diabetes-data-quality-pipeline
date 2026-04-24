@@ -13,7 +13,7 @@ Rather than optimizing aggressively for model performance, the goal is to demons
 The pipeline implements an end-to-end workflow including:
 
 - Data loading and initial inspection  
-- Identification and handling of invalid values (e.g., zero entries in medical features)  
+- Identification and handling of medically unrealistic values (e.g., 'zero' entries in medical features)  
 - Missing value imputation using median-based strategies  
 - Visualization of distributions before and after imputation  
 - Feature scaling using multiple techniques  
